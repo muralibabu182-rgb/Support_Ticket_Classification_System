@@ -1,0 +1,20 @@
+{
+  "name": "support-ticket-classification-system",
+  "version": "1.0.0",
+  "description": "Support Ticket Classification System powered by Python & Streamlit",
+  "main": "app.py",
+  "scripts": {
+    "start": "python -m streamlit run app.py",
+    "dev": "python -m streamlit run app.py",
+    "train": "python train.py",
+    "predict": "python predict.py"
+  },
+  "keywords": [
+    "nlp",
+    "machine-learning",
+    "streamlit",
+    "ticket-classification"
+  ],
+  "author": "",
+  "license": "ISC"
+}
